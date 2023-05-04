@@ -16,7 +16,7 @@
     width: 100%;
 }
 .gridtitle {
-    font-size: 1.25vw;
+    font-size: max(1.25vw,18px);
     font-weight: 700;
 }
 .gridtagplace {
@@ -30,4 +30,13 @@
     height: fit-content;
     border-radius: 5px;
     margin-right: 2%;    
+}
+
+@media (max-width:600px){
+    .griditself {
+        grid-template-columns: 50%;
+    }
+    .gridtag {
+        font-size: 12px;
+    }
 }
