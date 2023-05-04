@@ -6,12 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="menu.css">
 </head>
 <body>
-    
+
+    <!-- DEBUT PARTIE BARRE DE NAVIGATION -->
+    <nav class="navbar">
+        <img src="./img/menu/menu-btn.png" alt="bouton menu hamburger" class="menu-hamburger">
+        <a href="#" class="logo">ADVENTURE</a>
+        <div class="nav-links">
+            <ul>
+                <li class="active"><a href="./index.html">Boutique</a></li>
+                <li><a href="./apropos.html">à propos</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+                <li><a href="./sav.html">SAV</a></li>
+            </ul>
+        </div>
+        <iframe id="small-google-map" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d10498.368656278535!2d2.3234495763383443!3d48.86598692289923!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1stailleur%20paris!5e0!3m2!1sfr!2sfr!4v1683188216931!5m2!1sfr!2sfr" width="200" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div id="social-network">
+            <a href="https://www.instagram.com"><img class="social-network-logo" src="./img/menu/logo-instagram.png"></a>
+            <a href="https://www.facebook.com"><img class="social-network-logo" src="./img/menu/logo-facebook.png"></a>
+            <a href="https://www.twitter.com"><img class="social-network-logo" src="./img/menu/logo-twitter.png"></a>    
+        </div>
+    </nav>
+    <!-- FIN PARTIE BARRE DE NAVIGATION -->
     <div class="griditself" id="grid"></div>
     
 
     <script src="gridarticle.js"></script>
+    <script src="./menu.js"></script>
 </body>
 </html>
