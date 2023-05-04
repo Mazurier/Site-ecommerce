@@ -1,13 +1,36 @@
+header{
+    z-index: 99999;
+    position: absolute;
+    margin-left: 17vw;
+    width: 83vw;
+    height: 40vh;
+}
+.headerimg {
+    width: 83vw;
+    height: 40vh;
+}
+
+.gridcontain {
+    position: absolute;
+    width: 83vw;
+    background-color: burlywood; /*couleur a supr*/
+    margin-left: 17vw;
+}
 .griditself {
+    margin-top: 45vh;
     display: grid;
-    margin-left: 8%;
-    grid-template-columns: 20% 20% 20%;
+    grid-template-columns: 20% 20% 20% 20%;
     gap: 3%;
+    justify-content: center;
 }
 .gridarticle {
     background-color: #a5a5a5;
     height: fit-content;
     padding: 2%;
+}
+.gridhref {
+    text-decoration: none;
+    color: black;
 }
 .gridprix {
     text-align: right;
