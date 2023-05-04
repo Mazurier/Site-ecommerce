@@ -1,22 +1,22 @@
 header{
     z-index: 99999;
     position: absolute;
-    margin-left: 17vw;
-    width: 83vw;
+    margin-left: 15vw;
+    width: 85vw;
     height: 40vh;
 }
 .headerimg {
-    width: 83vw;
+    width: 85vw;
     height: 40vh;
 }
 
 .gridcontain {
     position: absolute;
-    width: 83vw;
-    margin-left: 17vw;
+    width: 85vw;
+    margin-left: 15vw;
 }
 .griditself {
-    margin-top: 45vh;
+    margin-top: 4vh;
     display: grid;
     grid-template-columns: 20% 20% 20% 20%;
     gap: 3%;
