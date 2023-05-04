@@ -8,6 +8,10 @@
 /* font-family: 'Italianno', cursive; */
 @import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
 
+/* Import de la font Maitree */
+/* font-family: 'Maitree', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Maitree:wght@200;300;400;500;600;700&display=swap');
+
 @font-face {
     font-family: 'Amiri';
     src: url('./font/Amiri-italic.ttf') format('truetype');
@@ -77,8 +81,8 @@ nav.navbar div.nav-links ul li a {
 nav.navbar iframe#small-google-map {
     align-self: center;
     padding-top: 25px;
-    width: 150px;
-    height: 75px;
+    width: 200px;
+    height: 150px;
 }
 
 nav.navbar div#social-network {
