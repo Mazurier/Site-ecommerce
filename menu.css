@@ -17,6 +17,7 @@ html {
 }
 
 nav.navbar {
+    position: fixed;
     background-color: aqua;
     width: 17vw;
     /* position: absolute; */
@@ -30,6 +31,7 @@ nav.navbar {
     align-items: flex-start;
     /* TODO : Etudier cette propriété */
     box-sizing: border-box;
+    background-color: aqua; /*juste pour le voir*/
 }
 
 nav.navbar a {
