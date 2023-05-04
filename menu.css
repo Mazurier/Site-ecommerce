@@ -1,0 +1,161 @@
+/***************************
+    PARTIE MENU RESPONSIVE
+***************************/
+
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+html {
+    /* font-size: 1.2vw; */
+    font-size: 1em;
+}
+
+nav.navbar {
+    width: 17vw;
+    /* position: absolute; */
+    padding: 10px;
+    /* On dispose ses enfants horizontalement */
+    display: flex;
+    flex-flow: column nowrap;
+    /* On les espace, un à chaque extrèmité */
+    justify-content: flex-start;
+    /* On les align verticalement */
+    align-items: flex-start;
+    /* TODO : Etudier cette propriété */
+    box-sizing: border-box;
+}
+
+nav.navbar a {
+    /* On met les liens en blancs */
+    color: black;
+}
+
+/* On met en forme le logo */
+nav.navbar a.logo {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+nav.navbar div.nav-links ul {
+    /* On dispose les liens li de la navbar horizontalement */
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+nav.navbar div.nav-links ul li {
+    /* on donne un peu de marge sur les côtés aux éléments du li pour qu'ils aient de l'espace entre eux */
+    margin: 0 25px;
+    padding-top: 15px;
+}
+
+nav.navbar div.nav-links ul li.active a {
+    /* Le lien actif */
+    font-weight: 600;
+    color: red;
+}
+
+nav.navbar div.nav-links ul li a {
+    text-transform: uppercase;
+}
+
+nav.navbar iframe#small-google-map {
+    align-self: center;
+    padding-top: 25px;
+}
+
+nav.navbar div#social-network {
+    align-self: center;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 25px;
+}
+
+nav.navbar div#social-network img.social-network-logo {
+    height: 25px;
+}
+
+nav.navbar img.menu-hamburger {
+    /* L'image du menu hamburger */
+    position: relative;
+    /* On le positionne en haut à droite */
+    top: 20px;
+    left: 10px;
+    /* On lui donne une taille de 35px */
+    width: 35px;
+    /* On le cache (on ne l'affiche que dans le media queries */
+    display: none;
+}
+
+/* A partir de 600px de large */
+@media screen and (max-width: 600px) {
+
+    /* on enlève le padding de la navbar (car on veut occuper tout l'écran */
+    nav.navbar {
+        padding: 0;
+    }
+
+    nav.navbar a.logo {
+        display: none;
+    }
+
+    nav.navbar iframe#small-google-map {
+        display: none;
+    }
+
+    nav.navbar div#social-network {
+        display: none;
+    }
+
+    /* La navbar va occuper la totalité de l'écran et est centrée */
+    nav.navbar div.nav-links {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: rgba(200, 200, 200, 0.466);
+        backdrop-filter: blur(5px);
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        /* Permet de cacher le menu mobile à gauche */
+        margin-left: -90%;
+        /* Pour faire une transition */
+        transition: all 0.5s ease;
+    }
+
+    /* Quand la classe mobile-menu est ajouté au div, on montre la navbar */
+    /* /!\ => A ajouter toujours après le "nav.navbar div.nav-links" */
+    nav.navbar div.mobile-menu {
+        margin-left: 0;
+    }
+
+    /* On affiche les ul en columns et on centre */
+    nav.navbar div.nav-links ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav.navbar div.nav-links ul li {
+        /* on donne un peu de marge sur les côtés aux éléments du li pour qu'ils aient de l'espace entre eux */
+        margin: 25px 0px;
+        font-size: 1.2rem;
+    }
+
+    /* On affiche le menu hamburger */
+    nav.navbar img.menu-hamburger {
+        display: block;
+        background-color: blue;
+        align-self: flex-end;
+        z-index: 1001;
+    }
+}
