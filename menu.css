@@ -4,6 +4,15 @@
 
 @charset "utf-8";
 
+/* Import de la font Italianno */
+/* font-family: 'Italianno', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+
+@font-face {
+    font-family: 'Amiri';
+    src: url('./font/Amiri-italic.ttf') format('truetype');
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -20,6 +29,7 @@ nav.navbar {
     position: sticky;
     background-image: linear-gradient(to top, #0c3483 0%, #a2b6df 100%, #6b8cce 100%, #a2b6df 100%);
     width: 15vw;
+    height: 100vh;
     /* position: absolute; */
     padding: 10px;
     /* On dispose ses enfants horizontalement */
