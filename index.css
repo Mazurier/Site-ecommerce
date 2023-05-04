@@ -1,27 +1,27 @@
 header{
-    z-index: 99999;
+    z-index: 5;
     position: absolute;
-    margin-left: 17vw;
-    width: 83vw;
+    margin-left: 15vw;
+    width: 85vw;
     height: 40vh;
 }
 .headerimg {
-    width: 83vw;
+    width: 85vw;
     height: 40vh;
 }
 
 .gridcontain {
     position: absolute;
-    width: 83vw;
-    background-color: burlywood; /*couleur a supr*/
-    margin-left: 17vw;
+    width: 85vw;
+    margin-left: 15vw;
 }
 .griditself {
-    margin-top: 45vh;
+    margin-top: 4vh;
     display: grid;
     grid-template-columns: 20% 20% 20% 20%;
     gap: 3%;
     justify-content: center;
+    padding-bottom: 10%;
 }
 .gridarticle {
     background-color: #a5a5a5;
@@ -37,7 +37,23 @@ header{
 }
 .gridimage {
     width: 100%;
+    box-shadow: 0 0 3px black;
+    -webkit-transition: all .5s cubic-bezier(.6, 2, .4, 1);
+    -moz-transition: all .5s cubic-bezier(.6, 2, .4, 1);
+    -ms-transition: all .5s cubic-bezier(.6, 2, .4, 1);
+    -o-transition: all .5s cubic-bezier(.6, 2, .4, 1);
+    transition: all .5s cubic-bezier(.6, 2, .4, 1);
 }
+.gridimage:hover{
+    z-index: 99999;
+    -webkit-transform: scale(1.25);
+    -moz-transform: scale(1.25);
+    -ms-transform: scale(1.25);
+    -o-transform: scale(1.25);
+    transform: scale(1.25);
+    box-shadow: 0 0 10px black;
+}
+
 .gridtitle {
     font-size: max(1.25vw,18px);
     font-weight: 700;
