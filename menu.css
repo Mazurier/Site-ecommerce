@@ -1,8 +1,23 @@
 /***************************
     PARTIE MENU RESPONSIVE
 ***************************/
-
 @charset "utf-8";
+
+:root {
+    --navbar-desktop-width: 15vw;
+    --navbar-desktop-height: 100vh;
+    --navbar-mobile-width: 73vw;
+    --navbar-mobile-height: 100vh;
+    --link-navbar-color: black;
+    --link-active-navbar-color: red;
+    --link-navbar-desktop-font-size: 1.4rem;
+    --link-navbar-mobile-font-size: 1.3rem;
+    --navbar-maps-desktop-width: 200px;
+    --navbar-maps-desktop-height: 150px;
+    --navbar-maps-mobile-width: 180px;
+    --navbar-maps-mobile-height: 150px;
+}
+
 
 /* Import de la font Italianno */
 /* font-family: 'Italianno', cursive; */
@@ -14,7 +29,7 @@
 
 @font-face {
     font-family: 'Amiri';
-    src: url('./font/Amiri-italic.ttf') format('truetype');
+    src: url('./font/Amiri-Italic.ttf') format('truetype');
 }
 
 * {
@@ -25,25 +40,20 @@
 }
 
 html {
-    /* font-size: 1.2vw; */
     font-size: 1em;
 }
 
 nav.navbar {
     position: fixed;
     background-image: linear-gradient(to top, #0c3483 0%, #a2b6df 100%, #6b8cce 100%, #a2b6df 100%);
-    width: 15vw;
-    height: 100vh;
+    width: var(--navbar-desktop-width);
+    height: var(--navbar-desktop-height);
     padding: 10px;
     display: flex;
     flex-flow: column nowrap;
     justify-content: flex-start;
     align-items: flex-start;
     box-sizing: border-box;
-}
-
-nav.navbar a {
-    color: black;
 }
 
 nav.navbar a.logo img {
@@ -71,18 +81,22 @@ nav.navbar div.nav-links ul li {
 
 nav.navbar div.nav-links ul li.active a {
     font-weight: 600;
-    color: red;
+    color: var(--link-active-navbar-color);
 }
 
 nav.navbar div.nav-links ul li a {
+    font-family: 'Amiri';
+    font-style: italic;
+    font-size: var(--link-navbar-desktop-font-size);
+    color: var(--link-navbar-color);
     text-transform: uppercase;
 }
 
 nav.navbar iframe#small-google-map {
     align-self: center;
     padding-top: 25px;
-    width: 200px;
-    height: 150px;
+    width: var(--navbar-maps-desktop-width);
+    height: var(--navbar-maps-desktop-height);
 }
 
 nav.navbar div#social-network {
@@ -133,8 +147,8 @@ nav.navbar div.nav-links img.menu-hamburger {
         left: 0;
         background-image: linear-gradient(to top, #0c3483 0%, #a2b6df 100%, #6b8cce 100%, #a2b6df 100%);
         backdrop-filter: blur(5px);
-        width: 73vw;
-        height: 100vh;
+        width: var(--navbar-mobile-width);
+        height: var(--navbar-mobile-height);
         display: flex;
         flex-flow: column nowrap;
         justify-content: flex-start;
@@ -156,15 +170,15 @@ nav.navbar div.nav-links img.menu-hamburger {
         flex-direction: column;    
     }
 
-    nav.navbar div.nav-links ul li {
-        font-size: 1.2rem;
+    nav.navbar div.nav-links ul li a {
+        font-size: var(--link-navbar-mobile-font-size);
     }
 
     nav.navbar iframe#small-google-map {
         align-self: flex-start;
         padding-top: 25px;
-        width: 180px;
-        height: 150px;
+        width: var(--navbar-maps-mobile-width);
+        height: var(--navbar-maps-mobile-height);
     }
 
     nav.navbar div#social-network {
