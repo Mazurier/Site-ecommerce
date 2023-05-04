@@ -34,6 +34,7 @@ html {
 nav.navbar {
     position: fixed;
     background-image: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%);
+    box-shadow: inset 1px 1px 6px 3px rgba(0,0,0,0.64);
     width: var(--navbar-desktop-width);
     height: var(--navbar-desktop-height);
     padding: 10px;
@@ -114,6 +115,9 @@ nav.navbar div.nav-links img.menu-hamburger {
 
     nav.navbar {
         padding: 0;
+        box-shadow: none;
+        /* pour éviter que la navbar déborde des navlinks */
+        width: 11vw;
     }
 
     nav.navbar a.logo {
@@ -135,6 +139,7 @@ nav.navbar div.nav-links img.menu-hamburger {
         top: 0;
         left: 0;
         background-image: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%);
+        box-shadow: inset 1px 1px 6px 3px rgba(0,0,0,0.64);
         width: var(--navbar-mobile-width);
         height: var(--navbar-mobile-height);
         display: flex;
@@ -143,7 +148,7 @@ nav.navbar div.nav-links img.menu-hamburger {
         align-items: center;
 
         /* Permet de cacher le menu mobile à gauche */
-        margin-left: -65vw;
+        margin-left: -61vw;
         /* Pour faire une transition */
         transition: all 0.5s ease;
     }
