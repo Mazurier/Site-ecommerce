@@ -12,19 +12,23 @@ form {
     margin-top: 2%;
     display: flex;
     flex-direction: column;
+    width: 50%;
+    justify-content: space-around;
 }
 .oblialert {
-    color: red;
+    font-style: italic;
 }
-.required::after{
-    content: " *";
-    color: red;
-}
+
 textarea {
     height: 5vw;
     resize: none;
 }
-button {
-    margin-top: 1%;
-    width: 5%;
+form button {
+    margin-top: 2%;
+    width: 30%;
+}
+
+form label {
+    padding-bottom: 1%;
+    padding-top: 1%;
 }
