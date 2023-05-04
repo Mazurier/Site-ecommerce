@@ -8,16 +8,19 @@
     --navbar-desktop-height: 100vh;
     --navbar-mobile-width: 73vw;
     --navbar-mobile-height: 100vh;
-    --link-navbar-color: black;
-    --link-active-navbar-color: red;
-    --link-navbar-desktop-font-size: 1.4rem;
-    --link-navbar-mobile-font-size: 1.3rem;
-    --navbar-maps-desktop-width: 200px;
-    --navbar-maps-desktop-height: 150px;
+    --navbar-link-color: black;
+    --navbar-link-active-color: red;
+    --navbar-link-desktop-font-size: 1.4rem;
+    --navbar-link-mobile-font-size: 1.3rem;
+    --navbar-maps-desktop-width: 90%;
+    --navbar-maps-desktop-height: auto;
+    /* --navbar-maps-desktop-width: 200px;
+    --navbar-maps-desktop-height: 150px; */
     --navbar-maps-mobile-width: 210px;
     --navbar-maps-mobile-height: 158px;
+    --navbar-logo-width: 95%;
+    --navbar-logo-height: auto;
 }
-
 
 /* Import de la font Italianno */
 /* font-family: 'Italianno', cursive; */
@@ -52,14 +55,14 @@ nav.navbar {
     display: flex;
     flex-flow: column nowrap;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: center;
     box-sizing: border-box;
     z-index: 1000;
 }
 
 nav.navbar a.logo img {
-    width: 200px;
-    height: 95px;
+    width: var(--navbar-logo-width);
+    height: var(--navbar-logo-height);
 }
 
 nav.navbar a.logo-mobile {
@@ -82,14 +85,14 @@ nav.navbar div.nav-links ul li {
 
 nav.navbar div.nav-links ul li.active a {
     font-weight: 600;
-    color: var(--link-active-navbar-color);
+    color: var(--navbar-link-active-color);
 }
 
 nav.navbar div.nav-links ul li a {
     font-family: 'Amiri';
     font-style: italic;
-    font-size: var(--link-navbar-desktop-font-size);
-    color: var(--link-navbar-color);
+    font-size: var(--navbar-link-desktop-font-size);
+    color: var(--navbar-link-color);
     text-transform: uppercase;
 }
 
@@ -172,7 +175,7 @@ nav.navbar div.nav-links img.menu-hamburger {
     }
 
     nav.navbar div.nav-links ul li a {
-        font-size: var(--link-navbar-mobile-font-size);
+        font-size: var(--navbar-link-mobile-font-size);
     }
 
     nav.navbar iframe#small-google-map {
