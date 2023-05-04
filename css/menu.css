@@ -3,7 +3,7 @@
 ***************************/
 @charset "utf-8";
 
-:root {
+nav.navbar {
     --navbar-desktop-width: 15vw;
     --navbar-desktop-height: 100vh;
     --navbar-mobile-width: 73vw;
@@ -14,10 +14,8 @@
     --navbar-link-mobile-font-size: 1.3rem;
     --navbar-maps-desktop-width: 90%;
     --navbar-maps-desktop-height: auto;
-    /* --navbar-maps-desktop-width: 200px;
-    --navbar-maps-desktop-height: 150px; */
-    --navbar-maps-mobile-width: 210px;
-    --navbar-maps-mobile-height: 158px;
+    --navbar-maps-mobile-width: 90%;
+    --navbar-maps-mobile-height: auto;
     --navbar-logo-width: 95%;
     --navbar-logo-height: auto;
 }
@@ -35,7 +33,7 @@ html {
 
 nav.navbar {
     position: fixed;
-    background-image: linear-gradient(to top, #0c3483 0%, #a2b6df 100%, #6b8cce 100%, #a2b6df 100%);
+    background-image: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%);
     width: var(--navbar-desktop-width);
     height: var(--navbar-desktop-height);
     padding: 10px;
@@ -67,7 +65,7 @@ nav.navbar div.nav-links ul {
 }
 
 nav.navbar div.nav-links ul li {
-    padding-top: 15px;
+    padding-top: 35px;
 }
 
 nav.navbar div.nav-links ul li.active a {
@@ -85,7 +83,7 @@ nav.navbar div.nav-links ul li a {
 
 nav.navbar iframe#small-google-map {
     align-self: center;
-    padding-top: 25px;
+    padding-top: 45px;
     width: var(--navbar-maps-desktop-width);
     height: var(--navbar-maps-desktop-height);
 }
@@ -96,7 +94,7 @@ nav.navbar div#social-network {
     flex-flow: row nowrap;
     justify-content: center;
     gap: 10px;
-    padding-top: 25px;
+    padding-top: 35px;
 }
 
 nav.navbar div#social-network img.social-network-logo {
@@ -136,8 +134,7 @@ nav.navbar div.nav-links img.menu-hamburger {
         position: absolute;
         top: 0;
         left: 0;
-        background-image: linear-gradient(to top, #0c3483 0%, #a2b6df 100%, #6b8cce 100%, #a2b6df 100%);
-        backdrop-filter: blur(5px);
+        background-image: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%);
         width: var(--navbar-mobile-width);
         height: var(--navbar-mobile-height);
         display: flex;
