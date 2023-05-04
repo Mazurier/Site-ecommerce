@@ -26,29 +26,22 @@ html {
 }
 
 nav.navbar {
-    position: sticky;
+    position: fixed;
     background-image: linear-gradient(to top, #0c3483 0%, #a2b6df 100%, #6b8cce 100%, #a2b6df 100%);
     width: 15vw;
     height: 100vh;
-    /* position: absolute; */
     padding: 10px;
-    /* On dispose ses enfants horizontalement */
     display: flex;
     flex-flow: column nowrap;
-    /* On les espace, un à chaque extrèmité */
     justify-content: flex-start;
-    /* On les align verticalement */
     align-items: flex-start;
-    /* TODO : Etudier cette propriété */
     box-sizing: border-box;
 }
 
 nav.navbar a {
-    /* On met les liens en blancs */
     color: black;
 }
 
-/* On met en forme le logo */
 nav.navbar a.logo img {
     width: 200px;
     height: 95px;
@@ -63,19 +56,16 @@ nav.navbar div.nav-links {
 }
 
 nav.navbar div.nav-links ul {
-    /* On dispose les liens li de la navbar horizontalement */
     display: flex;
     flex-flow: column nowrap;
     justify-content: flex-start;
 }
 
 nav.navbar div.nav-links ul li {
-    /* on donne un peu de marge sur les côtés aux éléments du li pour qu'ils aient de l'espace entre eux */
     padding-top: 15px;
 }
 
 nav.navbar div.nav-links ul li.active a {
-    /* Le lien actif */
     font-weight: 600;
     color: red;
 }
@@ -105,21 +95,16 @@ nav.navbar div#social-network img.social-network-logo {
 }
 
 nav.navbar div.nav-links img.menu-hamburger {
-    /* L'image du menu hamburger */
     position: relative;
-    /* On le positionne en haut à droite */
     top: 0px;
     right: 0px;
-    /* On lui donne une taille de 35px */
     width: 35px;
-    /* On le cache (on ne l'affiche que dans le media queries */
     display: none;
 }
 
 /* A partir de 600px de large */
 @media screen and (max-width: 600px) {
 
-    /* on enlève le padding de la navbar (car on veut occuper tout l'écran */
     nav.navbar {
         padding: 0;
     }
@@ -132,11 +117,11 @@ nav.navbar div.nav-links img.menu-hamburger {
         display: block;
     }
 
-    /* On met en forme le logo */
     nav.navbar a.logo-mobile img {
         width: 200px;
         height: 95px;
     }
+
     /* La navbar va occuper la totalité de l'écran et est centrée */
     nav.navbar div.nav-links {
         position: absolute;
@@ -163,12 +148,11 @@ nav.navbar div.nav-links img.menu-hamburger {
         margin-left: -0vw;
     }
 
-    /* On affiche les ul en columns et on centre */
     nav.navbar div.nav-links ul {
-        flex-direction: column;    }
+        flex-direction: column;    
+    }
 
     nav.navbar div.nav-links ul li {
-        /* on donne un peu de marge sur les côtés aux éléments du li pour qu'ils aient de l'espace entre eux */
         font-size: 1.2rem;
     }
 
@@ -182,7 +166,7 @@ nav.navbar div.nav-links img.menu-hamburger {
     nav.navbar div#social-network {
         align-self: flex-start;
     }
-    /* On affiche le menu hamburger */
+
     nav.navbar div.nav-links img.menu-hamburger {
         display: block;
         height: 25px;
