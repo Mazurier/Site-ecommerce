@@ -17,6 +17,7 @@ html {
 }
 
 nav.navbar {
+    background-color: aqua;
     width: 17vw;
     /* position: absolute; */
     padding: 10px;
@@ -82,12 +83,12 @@ nav.navbar div#social-network img.social-network-logo {
     height: 25px;
 }
 
-nav.navbar img.menu-hamburger {
+nav.navbar div.nav-links img.menu-hamburger {
     /* L'image du menu hamburger */
     position: relative;
     /* On le positionne en haut à droite */
-    top: 20px;
-    left: 10px;
+    top: 0px;
+    right: 0px;
     /* On lui donne une taille de 35px */
     width: 35px;
     /* On le cache (on ne l'affiche que dans le media queries */
@@ -124,7 +125,8 @@ nav.navbar img.menu-hamburger {
         width: 100%;
         height: 100vh;
         display: flex;
-        justify-content: center;
+        flex-flow: column nowrap;
+        justify-content: flex-start;
         align-items: center;
 
         /* Permet de cacher le menu mobile à gauche */
@@ -152,7 +154,7 @@ nav.navbar img.menu-hamburger {
     }
 
     /* On affiche le menu hamburger */
-    nav.navbar img.menu-hamburger {
+    nav.navbar div.nav-links img.menu-hamburger {
         display: block;
         background-color: blue;
         align-self: flex-end;
