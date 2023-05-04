@@ -4,7 +4,7 @@
     display: flex;
     width: 75vw;
     margin-top: 17vh;
-    margin-left: 16vw;
+    margin-left: 15.5vw;
     padding: 3%;
 
 }
@@ -13,5 +13,56 @@
 }
 .articleimg{
     right: 0%;
-    height: 50%;
+    margin-left: 3%;
+}
+.illustration {
+    height: 25vw;
+    border-radius: 20px;
+}
+h1 {
+    font-size: 2vw;
+}
+.catch {
+    margin-top: 2%;
+    font-size: 1.4vw;
+}
+.description {
+    margin-top: 2%;
+}
+p {
+    margin-top: 2%;
+}
+.subimg {
+    display: flex;
+    margin-top: 1%;
+}
+.subimgimg {
+    border-radius: 25px;
+    height: 4vw;
+    margin-left: 0.5vw;
+}
+.lasttext {
+    margin-top: 3%;
+    font-size: 2vw;
+    align-items: center;
+    text-align: center;
+}
+.prixtxt {
+    width: fit-content;
+    margin-top: 2%;
+    display: flex;
+    align-items: baseline;
+} /*Moche, boutton trop bas*/
+/*Moche en general en fait, bon.*/
+.prix {
+    width: fit-content;
+    font-weight: 700;
+    font-size: 1.5vw;
+}
+button {
+    height: 1vw;
+    background-color: rgb(159, 247, 100);
+    border: 0;
+    padding: 0%;
+    width: 10vw;
 }
