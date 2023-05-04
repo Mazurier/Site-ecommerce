@@ -6,6 +6,8 @@ function header(){
 
 return `
 <img src="../img/banner.jpeg" class="headerimg">
+<img src="../img/menu/cart.png" class="iconcart">
+<a href="#header"><img src="../img/menu/arrow.png" class="iconretourtop"><>/a
 `
 
 }
