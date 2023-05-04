@@ -131,15 +131,15 @@ nav.navbar div.nav-links img.menu-hamburger {
         left: 0;
         background-color: rgba(200, 200, 200, 0.466);
         backdrop-filter: blur(5px);
-        width: 100vw;
+        width: 75vw;
         height: 100vh;
         display: flex;
         flex-flow: column nowrap;
         justify-content: flex-start;
-        align-items: center;
+        align-items: flex-start;
 
         /* Permet de cacher le menu mobile à gauche */
-        margin-left: -92vw;
+        margin-left: -65vw;
         /* Pour faire une transition */
         transition: all 0.5s ease;
     }
@@ -147,21 +147,30 @@ nav.navbar div.nav-links img.menu-hamburger {
     /* Quand la classe mobile-menu est ajouté au div, on montre la navbar */
     /* /!\ => A ajouter toujours après le "nav.navbar div.nav-links" */
     nav.navbar div.mobile-menu {
-        margin-left: -4vw;
+        margin-left: -0vw;
     }
 
     /* On affiche les ul en columns et on centre */
     nav.navbar div.nav-links ul {
         flex-direction: column;
-        align-items: center;
+        background-color: blueviolet;
     }
 
     nav.navbar div.nav-links ul li {
         /* on donne un peu de marge sur les côtés aux éléments du li pour qu'ils aient de l'espace entre eux */
-        margin: 25px 0px;
         font-size: 1.2rem;
     }
 
+    nav.navbar iframe#small-google-map {
+        align-self: flex-start;
+        padding-top: 25px;
+        width: 180px;
+        height: 150px;
+    }
+
+    nav.navbar div#social-network {
+        align-self: flex-start;
+    }
     /* On affiche le menu hamburger */
     nav.navbar div.nav-links img.menu-hamburger {
         display: block;
