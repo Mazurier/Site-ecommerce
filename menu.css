@@ -14,8 +14,8 @@
     --link-navbar-mobile-font-size: 1.3rem;
     --navbar-maps-desktop-width: 200px;
     --navbar-maps-desktop-height: 150px;
-    --navbar-maps-mobile-width: 180px;
-    --navbar-maps-mobile-height: 150px;
+    --navbar-maps-mobile-width: 210px;
+    --navbar-maps-mobile-height: 158px;
 }
 
 
@@ -153,7 +153,7 @@ nav.navbar div.nav-links img.menu-hamburger {
         display: flex;
         flex-flow: column nowrap;
         justify-content: flex-start;
-        align-items: flex-start;
+        align-items: center;
 
         /* Permet de cacher le menu mobile à gauche */
         margin-left: -65vw;
@@ -176,14 +176,9 @@ nav.navbar div.nav-links img.menu-hamburger {
     }
 
     nav.navbar iframe#small-google-map {
-        align-self: flex-start;
         padding-top: 25px;
         width: var(--navbar-maps-mobile-width);
         height: var(--navbar-maps-mobile-height);
-    }
-
-    nav.navbar div#social-network {
-        align-self: flex-start;
     }
 
     nav.navbar div.nav-links img.menu-hamburger {
