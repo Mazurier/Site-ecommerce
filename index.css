@@ -1,5 +1,5 @@
 header{
-    z-index: 99999;
+    z-index: 5;
     position: absolute;
     margin-left: 15vw;
     width: 85vw;
@@ -37,7 +37,23 @@ header{
 }
 .gridimage {
     width: 100%;
+    box-shadow: 0 0 3px black;
+    -webkit-transition: all .5s cubic-bezier(.6, 2, .4, 1);
+    -moz-transition: all .5s cubic-bezier(.6, 2, .4, 1);
+    -ms-transition: all .5s cubic-bezier(.6, 2, .4, 1);
+    -o-transition: all .5s cubic-bezier(.6, 2, .4, 1);
+    transition: all .5s cubic-bezier(.6, 2, .4, 1);
 }
+.gridimage:hover{
+    z-index: 99999;
+    -webkit-transform: scale(1.25);
+    -moz-transform: scale(1.25);
+    -ms-transform: scale(1.25);
+    -o-transform: scale(1.25);
+    transform: scale(1.25);
+    box-shadow: 0 0 10px black;
+}
+
 .gridtitle {
     font-size: max(1.25vw,18px);
     font-weight: 700;
