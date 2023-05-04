@@ -17,9 +17,9 @@ html {
 }
 
 nav.navbar {
-    position: fixed;
-    background-color: aqua;
-    width: 17vw;
+    position: sticky;
+    background-image: linear-gradient(to top, #0c3483 0%, #a2b6df 100%, #6b8cce 100%, #a2b6df 100%);
+    width: 15vw;
     /* position: absolute; */
     padding: 10px;
     /* On dispose ses enfants horizontalement */
@@ -31,7 +31,6 @@ nav.navbar {
     align-items: flex-start;
     /* TODO : Etudier cette propriété */
     box-sizing: border-box;
-    background-color: aqua; /*juste pour le voir*/
 }
 
 nav.navbar a {
@@ -50,7 +49,6 @@ nav.navbar a.logo-mobile {
 }
 
 nav.navbar div.nav-links {
-    background-color: brown;
     padding-left: 15px;
 }
 
@@ -134,9 +132,9 @@ nav.navbar div.nav-links img.menu-hamburger {
         position: absolute;
         top: 0;
         left: 0;
-        background-color: rgba(200, 200, 200, 0.466);
+        background-image: linear-gradient(to top, #0c3483 0%, #a2b6df 100%, #6b8cce 100%, #a2b6df 100%);
         backdrop-filter: blur(5px);
-        width: 75vw;
+        width: 73vw;
         height: 100vh;
         display: flex;
         flex-flow: column nowrap;
@@ -157,9 +155,7 @@ nav.navbar div.nav-links img.menu-hamburger {
 
     /* On affiche les ul en columns et on centre */
     nav.navbar div.nav-links ul {
-        flex-direction: column;
-        background-color: blueviolet;
-    }
+        flex-direction: column;    }
 
     nav.navbar div.nav-links ul li {
         /* on donne un peu de marge sur les côtés aux éléments du li pour qu'ils aient de l'espace entre eux */
