@@ -40,9 +40,9 @@ nav.navbar a {
 }
 
 /* On met en forme le logo */
-nav.navbar a.logo {
-    font-size: 2em;
-    font-weight: bold;
+nav.navbar a.logo img {
+    width: 200px;
+    height: 95px;
 }
 
 nav.navbar a.logo-mobile {
@@ -124,6 +124,11 @@ nav.navbar div.nav-links img.menu-hamburger {
         display: block;
     }
 
+    /* On met en forme le logo */
+    nav.navbar a.logo-mobile img {
+        width: 200px;
+        height: 95px;
+    }
     /* La navbar va occuper la totalité de l'écran et est centrée */
     nav.navbar div.nav-links {
         position: absolute;
@@ -174,7 +179,8 @@ nav.navbar div.nav-links img.menu-hamburger {
     /* On affiche le menu hamburger */
     nav.navbar div.nav-links img.menu-hamburger {
         display: block;
-        background-color: blue;
+        height: 25px;
+        width: 25px;
         padding-top: 5px;
         padding-right: 5px;
         align-self: flex-end;
