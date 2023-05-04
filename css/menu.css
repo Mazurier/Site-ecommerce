@@ -118,6 +118,7 @@ nav.navbar div.nav-links img.menu-hamburger {
         box-shadow: none;
         /* pour éviter que la navbar déborde des navlinks */
         width: 7vw;
+        height: 35px; /* on met à 35 car on veut cacher la navbar et ne laisser que le bouton hamburger de visible */
     }
 
     nav.navbar a.logo {
@@ -141,7 +142,8 @@ nav.navbar div.nav-links img.menu-hamburger {
         background-image: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%);
         box-shadow: inset 1px 1px 6px 3px rgba(0,0,0,0.64);
         width: var(--navbar-mobile-width);
-        height: var(--navbar-mobile-height);
+        /* height: var(--navbar-mobile-height); */
+        height: 35px; /* on met à 35 car on veut cacher la navbar et ne laisser que le bouton hamburger de visible */
         display: flex;
         flex-flow: column nowrap;
         justify-content: flex-start;
@@ -171,6 +173,10 @@ nav.navbar div.nav-links img.menu-hamburger {
         padding-top: 25px;
         width: var(--navbar-maps-mobile-width);
         height: var(--navbar-maps-mobile-height);
+    }
+
+    nav.navbar div#social-network {
+        padding-top: 15px;
     }
 
     nav.navbar div.nav-links img.menu-hamburger {

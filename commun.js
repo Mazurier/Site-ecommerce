@@ -18,9 +18,9 @@ document.getElementById("header").innerHTML=header();
 function navbarjs(){
 
 return `
-<nav class="navbar">
+<nav class="navbar" id="navbar">
         <a href="#" class="logo"><img src="./img/logo-ducsman-200-95.png"></a>
-        <div class="nav-links">
+        <div class="nav-links" id="nav-links">
             <img src="./img/menu/menu-btn.png" alt="bouton menu hamburger" class="menu-hamburger" id="menu-hamburger-image">
             <a href="#" class="logo-mobile"><img src="./img/logo-ducsman-200-95.png"></a>
             <ul>
