@@ -5,7 +5,7 @@ var headervar='';
 function header(){
 
 return `
-<img src="../img/bannerindex.png" class="headerimg">
+<img src="../img/banner.jpeg" class="headerimg">
 `
 
 }
