@@ -47,7 +47,7 @@ header{
     transition: all .5s cubic-bezier(.6, 2, .4, 1);
 }
 .gridimage:hover{
-    z-index: 99999;
+    z-index: 900;
     -webkit-transform: scale(1.25);
     -moz-transform: scale(1.25);
     -ms-transform: scale(1.25);
