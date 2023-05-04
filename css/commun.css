@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+/* Import de la font Italianno */
+/* font-family: 'Italianno', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+
+/* Import de la font Maitree */
+/* font-family: 'Maitree', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Maitree:wght@200;300;400;500;600;700&display=swap');
+
+@font-face {
+    font-family: 'Amiri';
+    src: url('./font/Amiri-Italic.ttf') format('truetype');
+}
+
+header{
+    z-index: 5;
+    position: absolute;
+    margin-left: 15vw;
+    width: 85vw;
+    height: 40vh;
+}
+.headerimg {
+    width: 85vw;
+    height: 40vh;
+}
+
+.iconcart {
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    margin-top: 1%;
+    margin-right: 2%;
+    width: 3vw;
+}
+.iconretourtop {
+    position: fixed;
+    bottom: 0%;
+    right: 0%;
+    margin-bottom: 1%;
+    margin-right: 2%;
+    width: 3vw;
+}

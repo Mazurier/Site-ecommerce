@@ -8,8 +8,8 @@ const hamburgerImg = document.getElementById('menu-hamburger-image');
 
 menuHamburger.addEventListener('click',()=>{
     img=hamburgerImg.getAttribute('src');
-    if (img=='../img/menu/menu-btn.png') hamburgerImg.setAttribute('src','../img/menu/close.png');
-    else hamburgerImg.setAttribute('src','../img/menu/menu-btn.png');  
+    if (img=='./img/menu/menu-btn.png') hamburgerImg.setAttribute('src','./img/menu/close.png');
+    else hamburgerImg.setAttribute('src','./img/menu/menu-btn.png');  
 
     navLinks.classList.toggle('mobile-menu');
 });
