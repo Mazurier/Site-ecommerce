@@ -117,7 +117,7 @@ nav.navbar div.nav-links img.menu-hamburger {
         padding: 0;
         box-shadow: none;
         /* pour éviter que la navbar déborde des navlinks */
-        width: 11vw;
+        width: 7vw;
     }
 
     nav.navbar a.logo {
@@ -148,7 +148,7 @@ nav.navbar div.nav-links img.menu-hamburger {
         align-items: center;
 
         /* Permet de cacher le menu mobile à gauche */
-        margin-left: -61vw;
+        margin-left: -69vw;
         /* Pour faire une transition */
         transition: all 0.5s ease;
     }
