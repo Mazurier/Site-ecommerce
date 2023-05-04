@@ -1,0 +1,28 @@
+header{
+    z-index: 5;
+    position: absolute;
+    margin-left: 15vw;
+    width: 85vw;
+    height: 40vh;
+}
+.headerimg {
+    width: 85vw;
+    height: 40vh;
+}
+
+.iconcart {
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    margin-top: 1%;
+    margin-right: 2%;
+    width: 3vw;
+}
+.iconretourtop {
+    position: fixed;
+    bottom: 0%;
+    right: 0%;
+    margin-bottom: 1%;
+    margin-right: 2%;
+    width: 3vw;
+}
