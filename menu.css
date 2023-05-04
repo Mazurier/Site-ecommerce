@@ -1,0 +1,198 @@
+/***************************
+    PARTIE MENU RESPONSIVE
+***************************/
+@charset "utf-8";
+
+:root {
+    --navbar-desktop-width: 15vw;
+    --navbar-desktop-height: 100vh;
+    --navbar-mobile-width: 73vw;
+    --navbar-mobile-height: 100vh;
+    --link-navbar-color: black;
+    --link-active-navbar-color: red;
+    --link-navbar-desktop-font-size: 1.4rem;
+    --link-navbar-mobile-font-size: 1.3rem;
+    --navbar-maps-desktop-width: 200px;
+    --navbar-maps-desktop-height: 150px;
+    --navbar-maps-mobile-width: 180px;
+    --navbar-maps-mobile-height: 150px;
+}
+
+
+/* Import de la font Italianno */
+/* font-family: 'Italianno', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+
+/* Import de la font Maitree */
+/* font-family: 'Maitree', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Maitree:wght@200;300;400;500;600;700&display=swap');
+
+@font-face {
+    font-family: 'Amiri';
+    src: url('./font/Amiri-Italic.ttf') format('truetype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+html {
+    font-size: 1em;
+}
+
+nav.navbar {
+    position: fixed;
+    background-image: linear-gradient(to top, #0c3483 0%, #a2b6df 100%, #6b8cce 100%, #a2b6df 100%);
+    width: var(--navbar-desktop-width);
+    height: var(--navbar-desktop-height);
+    padding: 10px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    box-sizing: border-box;
+    z-index: 1000;
+}
+
+nav.navbar a.logo img {
+    width: 200px;
+    height: 95px;
+}
+
+nav.navbar a.logo-mobile {
+    display: none;
+}
+
+nav.navbar div.nav-links {
+    padding-left: 15px;
+}
+
+nav.navbar div.nav-links ul {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+}
+
+nav.navbar div.nav-links ul li {
+    padding-top: 15px;
+}
+
+nav.navbar div.nav-links ul li.active a {
+    font-weight: 600;
+    color: var(--link-active-navbar-color);
+}
+
+nav.navbar div.nav-links ul li a {
+    font-family: 'Amiri';
+    font-style: italic;
+    font-size: var(--link-navbar-desktop-font-size);
+    color: var(--link-navbar-color);
+    text-transform: uppercase;
+}
+
+nav.navbar iframe#small-google-map {
+    align-self: center;
+    padding-top: 25px;
+    width: var(--navbar-maps-desktop-width);
+    height: var(--navbar-maps-desktop-height);
+}
+
+nav.navbar div#social-network {
+    align-self: center;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 25px;
+}
+
+nav.navbar div#social-network img.social-network-logo {
+    height: 25px;
+}
+
+nav.navbar div.nav-links img.menu-hamburger {
+    position: relative;
+    top: 0px;
+    right: 0px;
+    width: 35px;
+    display: none;
+}
+
+/* A partir de 600px de large */
+@media screen and (max-width: 600px) {
+
+    nav.navbar {
+        padding: 0;
+    }
+
+    nav.navbar a.logo {
+        display: none;
+    }
+
+    nav.navbar a.logo-mobile {
+        display: block;
+    }
+
+    nav.navbar a.logo-mobile img {
+        width: 200px;
+        height: 95px;
+    }
+
+    /* La navbar va occuper la totalité de l'écran et est centrée */
+    nav.navbar div.nav-links {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-image: linear-gradient(to top, #0c3483 0%, #a2b6df 100%, #6b8cce 100%, #a2b6df 100%);
+        backdrop-filter: blur(5px);
+        width: var(--navbar-mobile-width);
+        height: var(--navbar-mobile-height);
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+
+        /* Permet de cacher le menu mobile à gauche */
+        margin-left: -65vw;
+        /* Pour faire une transition */
+        transition: all 0.5s ease;
+    }
+
+    /* Quand la classe mobile-menu est ajouté au div, on montre la navbar */
+    /* /!\ => A ajouter toujours après le "nav.navbar div.nav-links" */
+    nav.navbar div.mobile-menu {
+        margin-left: -0vw;
+    }
+
+    nav.navbar div.nav-links ul {
+        flex-direction: column;    
+    }
+
+    nav.navbar div.nav-links ul li a {
+        font-size: var(--link-navbar-mobile-font-size);
+    }
+
+    nav.navbar iframe#small-google-map {
+        align-self: flex-start;
+        padding-top: 25px;
+        width: var(--navbar-maps-mobile-width);
+        height: var(--navbar-maps-mobile-height);
+    }
+
+    nav.navbar div#social-network {
+        align-self: flex-start;
+    }
+
+    nav.navbar div.nav-links img.menu-hamburger {
+        display: block;
+        height: 25px;
+        width: 25px;
+        padding-top: 5px;
+        padding-right: 5px;
+        align-self: flex-end;
+        z-index: 1001;
+    }
+}
