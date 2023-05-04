@@ -45,15 +45,24 @@ nav.navbar a.logo {
     font-weight: bold;
 }
 
+nav.navbar a.logo-mobile {
+    display: none;
+}
+
+nav.navbar div.nav-links {
+    background-color: brown;
+    padding-left: 15px;
+}
+
 nav.navbar div.nav-links ul {
     /* On dispose les liens li de la navbar horizontalement */
     display: flex;
     flex-flow: column nowrap;
+    justify-content: flex-start;
 }
 
 nav.navbar div.nav-links ul li {
     /* on donne un peu de marge sur les côtés aux éléments du li pour qu'ils aient de l'espace entre eux */
-    margin: 0 25px;
     padding-top: 15px;
 }
 
@@ -70,6 +79,8 @@ nav.navbar div.nav-links ul li a {
 nav.navbar iframe#small-google-map {
     align-self: center;
     padding-top: 25px;
+    width: 150px;
+    height: 75px;
 }
 
 nav.navbar div#social-network {
@@ -109,12 +120,8 @@ nav.navbar div.nav-links img.menu-hamburger {
         display: none;
     }
 
-    nav.navbar iframe#small-google-map {
-        display: none;
-    }
-
-    nav.navbar div#social-network {
-        display: none;
+    nav.navbar a.logo-mobile {
+        display: block;
     }
 
     /* La navbar va occuper la totalité de l'écran et est centrée */
@@ -124,7 +131,7 @@ nav.navbar div.nav-links img.menu-hamburger {
         left: 0;
         background-color: rgba(200, 200, 200, 0.466);
         backdrop-filter: blur(5px);
-        width: 100%;
+        width: 100vw;
         height: 100vh;
         display: flex;
         flex-flow: column nowrap;
@@ -132,7 +139,7 @@ nav.navbar div.nav-links img.menu-hamburger {
         align-items: center;
 
         /* Permet de cacher le menu mobile à gauche */
-        margin-left: -90%;
+        margin-left: -92vw;
         /* Pour faire une transition */
         transition: all 0.5s ease;
     }
@@ -140,7 +147,7 @@ nav.navbar div.nav-links img.menu-hamburger {
     /* Quand la classe mobile-menu est ajouté au div, on montre la navbar */
     /* /!\ => A ajouter toujours après le "nav.navbar div.nav-links" */
     nav.navbar div.mobile-menu {
-        margin-left: 0;
+        margin-left: -4vw;
     }
 
     /* On affiche les ul en columns et on centre */
@@ -159,6 +166,8 @@ nav.navbar div.nav-links img.menu-hamburger {
     nav.navbar div.nav-links img.menu-hamburger {
         display: block;
         background-color: blue;
+        padding-top: 5px;
+        padding-right: 5px;
         align-self: flex-end;
         z-index: 1001;
     }
