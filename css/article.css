@@ -1,0 +1,17 @@
+/*Un seul css pour les articles merci*/
+.article {
+    position: absolute;
+    display: flex;
+    width: 75vw;
+    margin-top: 17vh;
+    margin-left: 16vw;
+    padding: 3%;
+
+}
+.headerimg {
+    height: 10vw;
+}
+.articleimg{
+    right: 0%;
+    height: 50%;
+}
