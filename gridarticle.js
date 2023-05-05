@@ -15,7 +15,7 @@ function gridaddtxt(title, img, prix, lien, tag1, tag2, tag3) {
     return `
       <div class="gridarticle">
         <div class="gridprix">${prix}€</div>
-        <a href="article/${lien}.html" class="gridhref">
+        <a href="${lien}.html" class="gridhref">
           <img src="img/${img}" class="gridimage">
           <div class="gridtitle">${title}</div>
         </a>
