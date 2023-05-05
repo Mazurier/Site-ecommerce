@@ -19,8 +19,17 @@
     height: 25vw;
     border-radius: 20px;
 }
+.h1prix {
+    display: flex;
+}
 h1 {
     font-size: 2vw;
+}
+.prix {
+    margin-left: 3%;
+    font-size: 2vw;
+    font-weight:800;
+    color:gold
 }
 .catch {
     margin-top: 2%;
@@ -47,22 +56,38 @@ p {
     align-items: center;
     text-align: center;
 }
-.prixtxt {
-    width: fit-content;
-    margin-top: 2%;
+
+.tailleplace {
     display: flex;
-    align-items: baseline;
-} /*Moche, boutton trop bas*/
-/*Moche en general en fait, bon.*/
-.prix {
-    width: fit-content;
-    font-weight: 700;
-    font-size: 1.5vw;
+    margin-top: 5%;
+    margin-left: 20%;
 }
-button {
-    height: 1vw;
-    background-color: rgb(159, 247, 100);
-    border: 0;
-    padding: 0%;
-    width: 10vw;
+.tailleicon {
+    background-color: rgb(211, 211, 211);
+    width: 1.5vw;
+    height: 1.5vw;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-right: 1%;
+    font-size: 0.75vw;
+}
+.buynow {
+    background-color: rgb(211, 211, 211);
+    width: 7vw;
+    height: 1.5vw;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-left: 3%;
+    font-size: 0.75vw;
+    color: black;
+}
+.selected {
+    background-color: grey;
+    border: 1px solid black;
 }
