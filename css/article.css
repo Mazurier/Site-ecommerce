@@ -1,12 +1,13 @@
 /*Un seul css pour les articles merci*/
 .article {
-    position: absolute;
     display: flex;
+}
+.articleplace {
+    position: absolute;
     width: 75vw;
     margin-top: 17vh;
     margin-left: 15.5vw;
     padding: 3%;
-
 }
 .headerimg {
     height: 10vw;
@@ -35,7 +36,11 @@ h1 {
     margin-top: 2%;
     font-size: 1.4vw;
 }
-.description {
+.descriptiontel {
+    margin-top: 2%;
+    display: none;
+}
+.descriptionpc {
     margin-top: 2%;
 }
 p {
@@ -50,17 +55,23 @@ p {
     height: 4vw;
     margin-left: 0.5vw;
 }
-.lasttext {
+.lasttexttel {
+    margin-top: 3%;
+    font-size: 2vw;
+    align-items: center;
+    text-align: center;
+    display: none;
+}
+.lasttextpc {
     margin-top: 3%;
     font-size: 2vw;
     align-items: center;
     text-align: center;
 }
-
 .tailleplace {
     display: flex;
-    margin-top: 5%;
-    margin-left: 20%;
+    margin-top: -6%;
+    margin-left: 5%;
 }
 .tailleicon {
     background-color: rgb(211, 211, 211);
@@ -83,11 +94,95 @@ p {
     align-items: center;
     text-align: center;
     justify-content: center;
-    margin-left: 3%;
+    margin-left: 1%;
     font-size: 0.75vw;
     color: black;
 }
 .selected {
     background-color: grey;
     border: 1px solid black;
+}
+.tailleplacetel {
+    display: none;
+}
+.buytel {
+    display: none;
+}
+
+@media (max-width:600px){
+    h1 {
+        font-size: 12vw;
+    }
+    header{
+        width: 110vw;
+        height: 20vw;
+        margin-left: -50%;
+    }
+    .headerimg {
+        height: 20vw;
+        width: 200vw;
+    }
+    .illustration {
+        height: 60vw;
+        margin-left: 7vw;
+    }
+    .subimg {
+        margin-left: 12%;
+    }
+    .subimgimg {
+        height: 15vw;
+    }
+    .articleplace {
+        margin-left: 1%;
+    }
+    .h1prix{
+        width: 50vw;
+    }
+    .catch {
+        width: 55vw;
+        font-size: 4vw;
+    }
+    .descriptiontel {
+        width: 110vw;
+        margin-top: 10%;
+        display: block;
+    }
+    .lasttexttel {
+        margin-top: 5vw;
+        font-size: 6vw;
+        width: 120vw;
+        display: flex;
+    }
+    .tailleplacetel {
+        display: flex;
+        margin-top: -15vw;
+    }
+    .tailleicon {
+        width: 8vw;
+        height: 8vw;
+        font-size: 4vw;
+        margin-right: 2vw;
+    }
+    .buynow {
+        margin-left: 0%;
+        margin-top: 2%;
+        height: 7vw;
+        width: 49vw;
+        font-size: 5vw;
+    }
+    .buytel {
+        display: contents;
+    }
+    .tailleplace {
+        display: none;
+    }
+    .prix {
+        display: none;
+    }
+    .descriptionpc {
+        display: none;
+    }
+    .lasttextpc {
+        display: none;
+    }
 }

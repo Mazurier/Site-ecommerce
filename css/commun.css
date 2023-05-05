@@ -50,4 +50,9 @@ header{
     .headerimg {
         width: 100vw;
     }
+    .iconcart, .iconretourtop{
+        margin-right: 3vw;
+        width: 12vw;
+    }
+    
 }
