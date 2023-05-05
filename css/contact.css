@@ -1,14 +1,29 @@
+@charset "utf-8";
+
+/* Import de la font Italianno */
+/* font-family: 'Italianno', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+
+/* Import de la font Maitree */
+/* font-family: 'Maitree', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Maitree:wght@200;300;400;500;600;700&display=swap');
+
+@font-face {
+    font-family: 'Amiri';
+    src: url('../font/Amiri-Italic.ttf') format('truetype');
+}
+
 .formplace {
+    font-family: 'Maitree', serif;
     position: absolute;
     width: 83vw;
     margin-top: 40vh;
     margin-left: 13vw;
     padding: 3%;
 }
-.titre {
-    font-size: 1.25vw;
-}
+
 form {
+    font-family: 'Maitree', serif;
     margin-top: 2%;
     display: flex;
     flex-direction: column;
@@ -16,6 +31,7 @@ form {
     justify-content: space-around;
 }
 .oblialert {
+    font-family: 'Maitree', serif;
     font-style: italic;
 }
 
@@ -31,4 +47,10 @@ form button {
 form label {
     padding-bottom: 1%;
     padding-top: 1%;
+}
+
+h1 {
+    font-family: 'Italianno', cursive;
+    font-weight: 400;
+    position:absolute;
 }
