@@ -1,0 +1,38 @@
+footer {
+    position: relative;
+}
+
+.lg{
+    width: 60vw;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto 0 auto;
+}
+
+div.lg a, div.cp a {
+    font-family: 'Maitree', serif;
+    color: #303030;
+}
+
+div.cp a {
+    display: block;
+    width: 33vw;
+}
+
+div.cp a:hover {
+    text-decoration: underline;
+} 
+
+p{
+    color: gray;
+}
+.cp{
+    display: flex;
+    justify-content: center;
+
+}
+div.logoo{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 5vh;
+}
