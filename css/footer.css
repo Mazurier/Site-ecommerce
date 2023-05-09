@@ -1,5 +1,8 @@
 footer {
+    width: 85vw;
     position: relative;
+    background-color: #303030;
+    padding-top: 1%;
 }
 
 .lg{
@@ -22,14 +25,10 @@ div.cp a {
 div.cp a:hover {
     text-decoration: underline;
 } 
-
-p{
-    color: gray;
-}
 .cp{
     display: flex;
     justify-content: center;
-
+    color: gray;
 }
 div.logoo{
         display: flex;
