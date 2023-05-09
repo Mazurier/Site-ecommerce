@@ -1,4 +1,5 @@
 div.apropos-container {
+    width: 80vw;
     position: absolute;
     margin-left: 15vw;
     top: 40vh;
@@ -21,6 +22,10 @@ p {
     color: #303030;
     margin-top: 2%;
     font-weight: 600;
+}
+footer {
+    margin-top: 2%;
+    margin-left: -3vw;
 }
 
 @media (max-width:600px) {

@@ -30,12 +30,18 @@ p{
     margin-top: 10vw;
     margin-left: 15.5%;
     padding: 2vw 3vw;
+    padding-bottom: 0%;
+    width: 78vw;
 }
 .last {
     margin-top: 5%;
     font-size: 1vw;
     text-align: center;
     color: rgb(66, 66, 66);
+}
+footer {
+    margin-left: -3.5vw;
+    margin-top: 2%;
 }
 @media (max-width:600px) {
     .main {

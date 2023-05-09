@@ -57,7 +57,7 @@ header{
 footer {
     width: 85vw;
     position: relative;
-    background-color: #303030;
+    background-color: rgb(218, 186, 164);
     padding-top: 1%;
 }
 
@@ -84,7 +84,7 @@ div.cp a:hover {
 .cp{
     display: flex;
     justify-content: center;
-    color: gray;
+    color: #303030;
 }
 div.logoo{
         display: flex;

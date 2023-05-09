@@ -9,6 +9,7 @@
     margin-top: 17vh;
     margin-left: 15.5vw;
     padding: 3%;
+    padding-bottom: 0%;
 }
 .headerimg {
     height: 10vw;
@@ -114,6 +115,11 @@ p {
     color: gold;
     font-weight: 600;
     display: none;
+}
+footer {
+    flex: 0 0 100%;
+    margin-top: 10%;
+    margin-left: -3.5vw;
 }
 
 @media (max-width:600px){

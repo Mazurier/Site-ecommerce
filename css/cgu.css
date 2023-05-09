@@ -2,7 +2,6 @@
     position: absolute;
     margin-left: 17vw;
     margin-top: 12vw;
-    padding-bottom: 4vw;
 }
 header {
     height: 10vw;
@@ -12,6 +11,10 @@ header {
 }
 h2 {
     margin-top: 1.5%;
+}
+footer {
+    margin-left: -2vw;
+    margin-top: 2%;
 }
 
 @media (max-width:600px){

@@ -37,6 +37,10 @@ button {
     text-align: center;
     justify-content: center;
 }
+footer {
+    margin-top: 2%;
+    margin-left: -2vw;
+}
 
 @media (max-width:600px){
     header {

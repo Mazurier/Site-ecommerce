@@ -15,29 +15,7 @@ return `
 
 document.getElementById("header").innerHTML=header();
 
-var footervar='';
 
-function footer(){
-
-return `
-<div class="logoo">
-    <img src="img/logo-ducsman-200-95-transparent.png" alt="">
-</div>
-<div class="cp">
-    <p>Copyright © 2023 Guide DUCSMAN. </p>
-</div>
-
-<div class=" lg">
-    <a href="mentions_legales.html">Mentions légales</a>
-    <a href="cgu.html">Condition générale utilisateur</a>
-    <a href="rgpd.html">RGPD</a>
-</div>
-`
-
-}
-
-
-document.getElementById("footer").innerHTML=footer();
 
 
 function navbarjs() {
@@ -91,5 +69,30 @@ function navbarjs() {
 }
 
 document.getElementById("navbarjs").innerHTML=navbarjs();
+
+
+var footervar='';
+
+function footer(){
+
+return `
+<div class="logoo">
+    <img src="img/logo-ducsman-200-95-transparent.png" alt="">
+</div>
+<div class="cp">
+    <p>Copyright © 2023 Guide DUCSMAN. </p>
+</div>
+
+<div class=" lg">
+    <a href="mentions_legales.html">Mentions légales</a>
+    <a href="cgu.html">Condition générale utilisateur</a>
+    <a href="rgpd.html">RGPD</a>
+</div>
+`
+
+}
+
+
+document.getElementById("footer").innerHTML=footer();
 
 
