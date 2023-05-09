@@ -30,7 +30,7 @@ function gridaddtxt(title, img, prix, lien, tag1, tag2, tag3) {
   let gridarticle = '';
 
   //dans l'ordre ("titre de l'article", 'png de l'article', "prix", "lienhtml","tag1", "tag2", tag3) (tag non obligatoire)
-  gridarticle += gridaddtxt("Le tshirt tropbien", 'gridarticle.png', "30", "article1", "test", "trucmuchouette", "blabla");
+  gridarticle += gridaddtxt("Le tshirt tropbien", 'gridarticle.png', "30", "article1", "test", "truc muchouette", "blabla");
   gridarticle += gridaddtxt("Le tshirt superbeau", 'gridarticle2.png', "2,99", "article1", "pascher", "plastique", "");
   gridarticle += gridaddtxt("Ma chemise d'hier", 'gridarticle3.png', "A partir de 399,64", "article1", "sale", "pas repasser", "sent l'ognion");
   gridarticle += gridaddtxt("Le tshirt superbeau", 'gridarticle2.png', "2,99", "article1", "pascher", "plastique", "");
