@@ -1,8 +1,10 @@
 div.apropos-container {
     position: absolute;
-    margin-left: 17vw;
+    margin-left: 15vw;
     top: 40vh;
-    padding-bottom: 4vh;
+    height: 30.2vw;
+    padding-left: 3vw;
+    padding-right: 2vw;
     background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
 }
 
@@ -17,6 +19,8 @@ p {
     font-family: 'Maitree', serif;
     font-size: 1rem;
     color: #303030;
+    margin-top: 2%;
+    font-weight: 600;
 }
 
 @media (max-width:600px) {
@@ -24,5 +28,7 @@ p {
         top: 20vw;
         margin-left: 0vw;
         padding: 2% 3%;
+        padding-bottom: 10%;
+        height: fit-content;
     }
 }
