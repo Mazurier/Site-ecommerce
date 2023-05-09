@@ -10,7 +10,6 @@ const navbar = document.getElementById('navbar');
 const navLinksId = document.getElementById('nav-links');
 
 let isMenuOpened=false;
-console.log(navbar);
 
 menuHamburger.addEventListener('click',()=>{
     navLinks.classList.toggle('mobile-menu');
@@ -31,7 +30,3 @@ menuHamburger.addEventListener('click',()=>{
         }
     }
 });
-
-function test() {
-    return;
-}
