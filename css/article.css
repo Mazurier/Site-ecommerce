@@ -9,6 +9,9 @@
     margin-left: 15.5vw;
     padding: 3%;
 }
+.headerimg {
+    height: 10vw;
+}
 .articleimg{
     right: 0%;
     margin-left: 3%;
@@ -183,5 +186,8 @@ p {
     }
     .illustration {
         height: 45vw;
+    }
+    .headerimg {
+        height: 20vw;
     }
 }
