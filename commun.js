@@ -13,7 +13,7 @@ return `
 }
 
 
-document.getElementById("footer").innerHTML=footer();
+document.getElementById("header").innerHTML=header();
 
 var footervar='';
 
@@ -37,7 +37,7 @@ return `
 }
 
 
-document.getElementById("header").innerHTML=footer();
+document.getElementById("footer").innerHTML=footer();
 
 
 function navbarjs() {
