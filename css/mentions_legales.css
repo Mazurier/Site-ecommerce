@@ -13,22 +13,28 @@
     src: url('../font/Amiri-Italic.ttf') format('truetype');
 }
 
+main {
+    margin-left: 15vw;
+    margin-top: 20vw;
+    position: absolute;
+}
+
 main h1 {
     font-family: 'Italianno', cursive;
     font-size: 4em;
     text-align: center;
-    margin: 2%;
+    margin: 2vw;
 }
 
 main h2 {
     font-family: 'Maitree', serif;
     font-weight: bold;
     text-align: center;
-    margin:2%;
+    margin:2vw;
 }
 
 main p {
     font-family: 'Maitree', serif;
     text-align: justify;
-    margin: 2%;
+    margin: 2vw;
 }
