@@ -1,0 +1,30 @@
+.main {
+    position: absolute;
+    margin-left: 17vw;
+    margin-top: 12vw;
+    padding-bottom: 4vw;
+}
+header {
+    height: 10vw;
+}
+.headerimg {
+    height: 10vw;
+}
+h2 {
+    margin-top: 1.5%;
+}
+
+@media (max-width:600px){
+    .headerimg {
+        height: 20vw;
+    }
+    .main {
+        margin-top: 20vw;
+        margin-left: 0vw;
+        padding: 2% 3%;
+        padding-bottom: 10vh;
+    }
+    h2 {
+        margin-top: 5%;
+    }
+}
