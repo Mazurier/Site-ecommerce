@@ -14,6 +14,7 @@
 }
 
 .formplace {
+    background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
     font-family: 'Maitree', serif;
     position: absolute;
     width: 83vw;
@@ -41,16 +42,29 @@ textarea {
 }
 form button {
     margin-top: 2%;
-    width: 30%;
+    width: fit-content;
+    padding: 0% 1%;
 }
 
 form label {
     padding-bottom: 1%;
     padding-top: 1%;
 }
-
+.astred {
+    color: red;
+}
+.required:after {
+    content: " *";
+    color: red;
+}
 h1 {
     font-family: 'Italianno', cursive;
     font-weight: 400;
     position:absolute;
+}
+@media (max-width:600px) {
+    .formplace {
+        margin-top: 25vw;
+        margin-left: 2vw;
+    }
 }

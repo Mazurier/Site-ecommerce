@@ -110,6 +110,11 @@ p {
 .buytel {
     display: none;
 }
+.prixtel {
+    color: gold;
+    font-weight: 600;
+    display: none;
+}
 
 @media (max-width:600px){
     h1 {
@@ -130,6 +135,9 @@ p {
     }
     .h1prix{
         width: 40vw;
+    }
+    .prixtel {
+        display: contents;
     }
     .catch {
         width: 48vw;

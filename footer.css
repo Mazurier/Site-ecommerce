@@ -1,0 +1,22 @@
+
+.lg{
+   
+    display: flex;
+    justify-content: space-around;
+    margin: 0 37% ;
+}
+a{
+    text-decoration: none;
+}
+p{
+    color: gray;
+}
+.cp{
+    display: flex;
+    justify-content: center;
+
+}
+.logoo{
+    display: flex;
+    justify-content: center;
+}

@@ -5,10 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ducsman - Contact</title>
-    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/commun.css">
     <link rel="stylesheet" href="css/contact.css">
+    <script>
+        currentPage='contact';
+    </script>
 </head>
 <body>
 
@@ -23,24 +25,24 @@
         <div class="titre">
             <p>Une question sur un produit ? Une prise de rendez-vous pour vos mesures ?
                 Vous pouvez me contacter via ce formulaire. Je me ferai une joie de revenir vers vous dans les meilleurs délais.</p>
-            <p class="oblialert">Les champs marqués d'un * sont obligatoires.</p>
+            <p class="oblialert">Les champs marqués d'un <span class="astred">*</span> sont obligatoires.</p>
         </div>
 
         <form action="traitement.html">
 
-            <label for="name" class="required">Nom* : </label>
+            <label for="name" class="required">Nom: </label>
             <input type="text" id="name" maxlength="150" placeholder="Votre nom" required>
 
-            <label for="first_name" class="required">Prénom* : </label>
+            <label for="first_name" class="required">Prénom: </label>
             <input type="text" id="first_name" maxlength="150" placeholder ="Votre prénom" required>
 
-            <label for="mail" class="required">Courriel* : </label>
+            <label for="mail" class="required">Courriel: </label>
             <input type="email" id="mail" maxlength="150" placeholder ="adresse@domaine.com" required>
 
-            <label for="phone">Numéro de téléphone :</label>
+            <label for="phone">Numéro de téléphone:</label>
             <input type="tel" id="phone" pattern="[0-9]{10}" placeholder="014000000000">
 
-            <label for="message" class="required">Votre message* :</label>
+            <label for="message" class="required">Votre message:</label>
             <textarea id="message" name="message" maxlength="3000" required></textarea>
 
             <button type="submit">Envoyer</button>
