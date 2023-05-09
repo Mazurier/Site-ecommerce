@@ -43,12 +43,16 @@ header{
 }
 @media (max-width:600px) {
     .header{
+        position: absolute;
         width: 100vw;
-        margin-left: 0%;
         left: 0%;
+        margin-left: -17vw;
     }
     .headerimg {
-        width: 100vw;
+        width: 102vw;
+        height: 20vw;
+        left: 0%;
+        margin-left: -17vw;
     }
     .iconcart, .iconretourtop{
         margin-right: 3vw;
