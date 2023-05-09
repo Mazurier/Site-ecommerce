@@ -62,10 +62,28 @@
 }
 
 @media (max-width:600px){
+    .gridcontain{
+        margin-top: 30vw;
+        margin-left: 0vw;
+        width: 100vw;
+    }
     .griditself {
-        grid-template-columns: 50%;
+        margin-top: 0vw;
+        grid-template-columns: 40% 40%;
+        gap: 8%;
+        row-gap: 2%;
+    }
+    .gridtagplace {
+        break-inside: auto;
     }
     .gridtag {
         font-size: 12px;
+    }
+    header {
+        height: 20vw;
+    }
+    .gridprix {
+        width: 100%;
+        font-size: 3.5vw;
     }
 }
