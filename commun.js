@@ -19,10 +19,10 @@ function navbarjs(){
 
 return `
 <nav class="navbar" id="navbar">
-        <a href="#" class="logo"><img src="./img/logo-ducsman-200-95.png"></a>
+        <a href="#" class="logo"><img src="./img/logo-ducsman-200-95-transparent.png"></a>
         <div class="nav-links" id="nav-links">
             <img src="./img/menu/menu-btn.png" alt="bouton menu hamburger" class="menu-hamburger" id="menu-hamburger-image">
-            <a href="#" class="logo-mobile"><img src="./img/logo-ducsman-200-95.png"></a>
+            <a href="#" class="logo-mobile"><img src="./img/logo-ducsman-200-95-transparent.png"></a>
             <ul>
                 <li class="active"><a href="./index.html">Boutique</a></li>
                 <li><a href="./apropos.html">à propos</a></li>
