@@ -78,7 +78,7 @@ nav.navbar div.nav-links ul li a {
 
 nav.navbar iframe#small-google-map {
     align-self: center;
-    padding-top: 45px;
+    padding-top: 6vh;
     width: var(--navbar-maps-desktop-width);
     height: var(--navbar-maps-desktop-height);
 }
@@ -89,7 +89,7 @@ nav.navbar div#social-network {
     flex-flow: row nowrap;
     justify-content: center;
     gap: 10px;
-    padding-top: 35px;
+    padding-top: 3vh;
 }
 
 nav.navbar div#social-network img.social-network-logo {
