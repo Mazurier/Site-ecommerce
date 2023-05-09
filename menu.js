@@ -22,6 +22,5 @@ menuHamburger.addEventListener('click',()=>{
         navbar.style.height = '35px';
         navLinksId.style.height = '35px';
     }
-
     navLinks.classList.toggle('mobile-menu');
 });

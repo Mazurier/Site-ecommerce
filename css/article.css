@@ -38,6 +38,7 @@ h1 {
 }
 .descriptiontel {
     margin-top: 2%;
+    width: 80vw;
     display: none;
 }
 .descriptionpc {
@@ -95,7 +96,7 @@ p {
     text-align: center;
     justify-content: center;
     margin-left: 1%;
-    font-size: 0.75vw;
+    font-size: 0.65vw;
     color: black;
 }
 .selected {
@@ -113,15 +114,6 @@ p {
     h1 {
         font-size: 12vw;
     }
-    header{
-        width: 110vw;
-        height: 20vw;
-        margin-left: -50%;
-    }
-    .headerimg {
-        height: 20vw;
-        width: 200vw;
-    }
     .illustration {
         height: 60vw;
         margin-left: 7vw;
@@ -136,39 +128,39 @@ p {
         margin-left: 1%;
     }
     .h1prix{
-        width: 50vw;
+        width: 40vw;
     }
     .catch {
-        width: 55vw;
-        font-size: 4vw;
+        width: 48vw;
+        font-size: 2vw;
     }
     .descriptiontel {
-        width: 110vw;
+        width: 80vw;
         margin-top: 10%;
         display: block;
     }
     .lasttexttel {
         margin-top: 5vw;
         font-size: 6vw;
-        width: 120vw;
+        width: 80vw;
         display: flex;
     }
     .tailleplacetel {
         display: flex;
-        margin-top: -15vw;
+        margin-top: -25vw;
     }
     .tailleicon {
-        width: 8vw;
-        height: 8vw;
-        font-size: 4vw;
+        width: 5vw;
+        height: 5vw;
+        font-size: 3vw;
         margin-right: 2vw;
     }
     .buynow {
         margin-left: 0%;
         margin-top: 2%;
-        height: 7vw;
-        width: 49vw;
-        font-size: 5vw;
+        height: 5vw;
+        width: 38vw;
+        font-size: 3vw;
     }
     .buytel {
         display: contents;
@@ -184,5 +176,18 @@ p {
     }
     .lasttextpc {
         display: none;
+    }
+    h1 {
+        width: auto;
+        font-size: 6vw;
+    }
+    .articleimg {
+        margin-left: -20%;
+    }
+    .illustration {
+        height: 45vw;
+    }
+    .headerimg {
+        height: 20vw;
     }
 }

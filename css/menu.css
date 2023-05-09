@@ -66,7 +66,7 @@ nav.navbar div.nav-links ul {
 }
 
 nav.navbar div.nav-links ul li {
-    padding-top: 35px;
+    padding-top: 20px;
 }
 
 nav.navbar div.nav-links ul li.active a {
@@ -117,7 +117,7 @@ nav.navbar div.nav-links img.menu-hamburger {
         padding: 0;
         box-shadow: none;
         /* pour éviter que la navbar déborde des navlinks */
-        width: 7vw;
+        width: 6vw;
         height: 35px; /* on met à 35 car on veut cacher la navbar et ne laisser que le bouton hamburger de visible */
     }
 
@@ -152,11 +152,9 @@ nav.navbar div.nav-links img.menu-hamburger {
         /* Permet de cacher le menu mobile à gauche */
         margin-left: -69vw;
         /* Pour faire une transition */
-        transition: all 0.5s ease;
+        transition: margin-left 0.5s ease;
     }
 
-    /* Quand la classe mobile-menu est ajouté au div, on montre la navbar */
-    /* /!\ => A ajouter toujours après le "nav.navbar div.nav-links" */
     nav.navbar div.mobile-menu {
         margin-left: -0vw;
     }
