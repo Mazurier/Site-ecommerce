@@ -1,4 +1,5 @@
 h1{
+    padding-bottom:2% ;
     font-size: 40px;
     display: flex;
     justify-content: center;
@@ -11,5 +12,18 @@ h2{
     text-decoration: underline ;
 }
 p{
-    font-size: 20px;
+ font-size: 20px;
 }
+
+.main{
+    position: absolute;
+    margin-top: 20vw;
+    margin-left: 15.5%;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+}
+
