@@ -15,8 +15,10 @@
 
 main {
     margin-left: 15vw;
-    margin-top: 20vw;
+    top: 40vh;
     position: absolute;
+    width: 85vw;
+    background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
 }
 
 main h1 {
@@ -37,4 +39,12 @@ main p {
     font-family: 'Maitree', serif;
     text-align: justify;
     margin: 2vw;
+}
+
+@media (max-width:600px) {
+    main {
+        width: 100vw;
+        top: 20vw;
+        margin-left: 0vw;
+    }
 }

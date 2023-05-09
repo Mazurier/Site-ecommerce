@@ -1,12 +1,28 @@
 div.apropos-container {
     position: absolute;
-    width: 83vw;
-    margin-left: 15vw;
+    margin-left: 17vw;
     top: 40vh;
+    padding-bottom: 4vh;
+    background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
 }
 
 h1 {
     font-family: 'Italianno', cursive;
     font-size: 2.5rem;
     color: #303030;
+    text-align: center;
+}
+
+p {
+    font-family: 'Maitree', serif;
+    font-size: 1rem;
+    color: #303030;
+}
+
+@media (max-width:600px) {
+    div.apropos-container {
+        top: 20vw;
+        margin-left: 0vw;
+        padding: 2% 3%;
+    }
 }

@@ -121,11 +121,11 @@ p {
         font-size: 12vw;
     }
     .illustration {
-        height: 60vw;
-        margin-left: 7vw;
+        height: 80vw;
+        margin-left: 14vw;
     }
     .subimg {
-        margin-left: 12%;
+        margin-left: 14vw;
     }
     .subimgimg {
         height: 15vw;
@@ -134,7 +134,7 @@ p {
         margin-left: 1%;
     }
     .h1prix{
-        width: 40vw;
+        width: 55vw;
     }
     .prixtel {
         display: contents;

@@ -7,7 +7,7 @@ function header(){
 return `
 <img src="./img/banner.jpeg" class="headerimg">
 <a href="https://eelslap.com/"><img src="./img/menu/cart.png" class="iconcart"></a>
-<a href="#header"><img src="./img/menu/arrow.png" class="iconretourtop"></a>
+<a href="#top"><img src="./img/menu/arrow.png" class="iconretourtop"></a>
 `
 
 }
