@@ -13,6 +13,14 @@
     src: url('../font/Amiri-Italic.ttf') format('truetype');
 }
 
+/* reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
 body {
     background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
 }

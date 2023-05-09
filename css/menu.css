@@ -20,13 +20,6 @@ nav.navbar {
     --navbar-logo-height: auto;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    list-style: none;
-}
-
 html {
     font-size: 1em;
 }
