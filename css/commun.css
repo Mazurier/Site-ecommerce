@@ -53,6 +53,46 @@ header{
     margin-right: 2%;
     width: 3vw;
 }
+
+footer {
+    width: 85vw;
+    position: relative;
+    background-color: #303030;
+    padding-top: 1%;
+}
+
+.lg{
+    width: 60vw;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto 0 auto;
+}
+
+div.lg a, div.cp a {
+    font-family: 'Maitree', serif;
+    color: #303030;
+}
+
+div.cp a {
+    display: block;
+    width: 33vw;
+}
+
+div.cp a:hover {
+    text-decoration: underline;
+} 
+.cp{
+    display: flex;
+    justify-content: center;
+    color: gray;
+}
+div.logoo{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 5vh;
+}
+
+
 @media (max-width:600px) {
     .header{
         position: absolute;
@@ -69,6 +109,10 @@ header{
     .iconcart, .iconretourtop{
         margin-right: 3vw;
         width: 12vw;
+    }
+
+    footer {
+        margin-top: 27vh;
     }
     
 }
