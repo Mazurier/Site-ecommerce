@@ -11,6 +11,7 @@ h2{
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     padding: 1%;
     font-size: 2vw;
     text-decoration: underline;
@@ -20,9 +21,13 @@ p{
  font-size: 1.15vw;
 }
 
+.headerimg {
+    height: 10vw;
+}
+
 .main{
     position: absolute;
-    margin-top: 20vw;
+    margin-top: 10vw;
     margin-left: 15.5%;
     padding: 2vw 3vw;
 }
@@ -31,4 +36,19 @@ p{
     font-size: 1vw;
     text-align: center;
     color: rgb(66, 66, 66);
+}
+@media (max-width:600px) {
+    .main {
+        margin-left: 1vw;
+        padding-bottom: 15vh;
+    }
+    h1 {
+        font-size: 4vw;
+    }
+    h2 {
+        font-size: 4vw;
+    }
+    p {
+        font-size: 2.5vw;
+    }
 }
