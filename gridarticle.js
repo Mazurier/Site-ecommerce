@@ -33,8 +33,8 @@ function gridaddtxt(title, img, prix, lien, tag1, tag2, tag3) {
   gridarticle += gridaddtxt("Costume 3 pièces Maria", 'gridarticle.jpg', "À partir de 350", "article1", "Laine", "Prêt-à-porter", "Sur mesure");
   gridarticle += gridaddtxt("Veste à revets Yukiko", 'gridarticle2.jpg', "150", "article1", "Feutre", "Prêt-à-porter", "Noir");
   gridarticle += gridaddtxt("Costume Julia", 'gridarticle3.jpg', "À partir de 280", "article1", "Coton", "Prêt-à-porter", "Sur mesure");
-  gridarticle += gridaddtxt("Pantalon Morgana", 'gridarticle4.jpg', "90", "Coton", "Disponible en différents coloris", "Prêt-à-porter", "");
-  gridarticle += gridaddtxt("Smoking Lucie", 'gridarticle5.jpg', "À partir de 500", "Laine", "Soie", "Sur mesure uniquement", "");
+  gridarticle += gridaddtxt("Pantalon Morgana", 'gridarticle4.jpg', "90", "article1", "Disponible en différents coloris", "Prêt-à-porter", "");
+  gridarticle += gridaddtxt("Smoking Lucie", 'gridarticle5.jpg', "À partir de 500", "article1", "Soie", "Sur mesure uniquement", "");
   gridarticle += gridaddtxt("Veste Aika", 'gridarticle6.jpg', "120", "article1", "Coton", "Prêt-à-porter", "Disponible en différents coloris");
   gridarticle += gridaddtxt("Chemise Chiaki", 'gridarticle7.jpeg', "60", "article1", "Coton", "Prêt-à-porter", "");
   gridarticle += gridaddtxt("Chemisette Zoé", 'gridarticle8.jpeg', "50", "article1", "Coton", "Prêt-à-porter", "");
