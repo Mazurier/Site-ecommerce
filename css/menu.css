@@ -172,6 +172,10 @@ nav.navbar div.nav-links img.menu-hamburger {
         transition: margin-left 0.5s ease;
     }
 
+    nav.navbar div.nav-links ul li a:hover {
+        background-color: #303030;
+    }
+
     nav.navbar div.mobile-menu {
         margin-left: -0vw;
     }
