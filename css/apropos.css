@@ -1,10 +1,10 @@
 div.apropos-container {
     width: 80vw;
     position: absolute;
-    margin-left: 15vw;
+    margin-left: 14vw;
     top: 40vh;
     height: 30.2vw;
-    padding-left: 3vw;
+    padding-left: 4vw;
     padding-right: 2vw;
     background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
 }
