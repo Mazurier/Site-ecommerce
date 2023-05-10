@@ -54,8 +54,11 @@ footer {
         height: 20vw;
     }
     .main {
-        margin-left: 4vw;
-        margin-top: 25vw;
+        padding-left: 4vw;
+        padding-top: 25vw;
+    }
+    .titre {
+        font-size: 5vw;
     }
     .rectangle {
         width: 85vw;
