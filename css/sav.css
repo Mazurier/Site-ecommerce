@@ -15,10 +15,16 @@
 form {
     display: flex;
     flex-direction: column;
+    font-family: 'Maitree', serif;
 }
 .formitem {
     margin-top: 0%;
     padding-bottom: 2%;
+}
+.titre {
+    font-size: 1vw;
+    font-weight: 500;
+    font-family: 'Amiri';
 }
 .other {
     margin-top: 2%;
