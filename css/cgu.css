@@ -1,7 +1,9 @@
 .main {
     position: absolute;
     padding-left: 17vw;
+    width: 81vw;
     padding-top: 12vw;
+    padding-right: 2vw;
     background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
 }
 header {
