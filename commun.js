@@ -86,8 +86,8 @@ return `
 
 <div class=" lg">
     <a href="mentions_legales.html">Mentions légales</a>
-    <a href="cgu.html">Condition générale utilisateur</a>
-    <a href="rgpd.html">RGPD</a>
+    <a href="cgu.html">Conditions générales d'utilisation</a>
+    <a href="rgpd.html">Réglement général sur la protection des données</a>
 </div>
 `
 
