@@ -40,10 +40,6 @@ main p {
     text-align: justify;
     margin: 2vw;
 }
-
-div.background_apply {
-    background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
-}
     
 @media (max-width:600px) {
     main {
