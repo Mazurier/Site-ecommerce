@@ -26,6 +26,8 @@ function navbarjs() {
     contactActive='';
     cguActive='';
     article1Active='';
+    savArticle='';
+    savActive='';
 
     if (currentPage=='index') {
         indexActive='class="active"';
