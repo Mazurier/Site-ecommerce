@@ -62,10 +62,11 @@ footer {
 }
 
 .lg{
-    width: 60vw;
+    width: 100%;
     display: flex;
     justify-content: space-around;
-    margin: 0 auto 0 auto;
+    text-align: center;
+    
 }
 
 div.lg a, div.cp a {
@@ -85,11 +86,12 @@ div.cp a:hover {
     display: flex;
     justify-content: center;
     color: #303030;
+    margin-bottom: 4vh;
 }
 div.logoo{
         display: flex;
         justify-content: center;
-        margin-bottom: 5vh;
+        margin-bottom: 0vh;
 }
 
 
