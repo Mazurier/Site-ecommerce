@@ -62,8 +62,7 @@ nav.navbar div.nav-links ul li {
     padding-top: 10px;
 }
 
-nav.navbar div.nav-links ul li.active a {
-    font-weight: 600;
+nav.navbar div.nav-links ul li a.active {
     color: var(--navbar-link-active-color);
 }
 

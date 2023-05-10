@@ -30,7 +30,7 @@ function navbarjs() {
     if (currentPage=='index') {
         indexActive='class="active"';
     } else if (currentPage=='apropos') {
-        aproposActive='aproposActive';
+        aproposActive='class="active"';
     } else if (currentPage=='rgpd') {
         rgpdActive='class="active"';
     } else if (currentPage=='mentions_legales') {
@@ -41,6 +41,8 @@ function navbarjs() {
         cguActive='class="active"';
     } else if (currentPage=='article1') {
         indexActive='class="active"';
+    } else if (currentPage=='sav') {
+        savActive='class="active"';
     }
 
     return `
@@ -56,7 +58,7 @@ function navbarjs() {
                     <li><a href="./rgpd.html" `+rgpdActive+`>RGPD</a></li>
                     <li><a href="./cgu.html" `+cguActive+`>CGU</a></li>
                     <li><a href="./mentions_legales.html" `+mentionsLegalesActive+`>Mentions Légales</a></lli>
-                    <li><a href="./sav.html">SAV</a></li>
+                    <li><a href="./sav.html" `+savActive+`>SAV</a></li>
                 </ul>
                 <iframe id="small-google-map" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d10498.368656278535!2d2.3234495763383443!3d48.86598692289923!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1stailleur%20paris!5e0!3m2!1sfr!2sfr!4v1683188216931!5m2!1sfr!2sfr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 <div id="social-network">
