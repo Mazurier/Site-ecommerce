@@ -69,7 +69,15 @@ footer {
 }
 @media (max-width:600px) {
     .formplace {
-        margin-top: 25vw;
-        margin-left: 2vw;
+        margin-top: 0vw;
+        margin-left: 0vw;
+        padding-top: 24vw;
+        padding-left: 4vw;
+        width: 93vw;
+    }
+    footer {
+        left: 0%;
+        margin-left: -4vw;
+        margin-top: 5vh;
     }
 }

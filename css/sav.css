@@ -56,4 +56,8 @@ footer {
     button {
         width: 20vw;
     }
+    footer {
+        margin-top: 26vw;
+        margin-left: -4vw;
+    }
 }
