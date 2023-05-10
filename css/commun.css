@@ -13,6 +13,14 @@
     src: url('../font/Amiri-Italic.ttf') format('truetype');
 }
 
+/* reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
 body {
     background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
 }
@@ -45,6 +53,52 @@ header{
     margin-right: 2%;
     width: 3vw;
 }
+
+footer {
+    width: 85vw;
+    position: relative;
+    background-color: rgb(218, 186, 164);
+    padding-top: 1%;
+}
+
+.lg{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    
+}
+
+div.lg a, div.cp a {
+    font-family: 'Maitree', serif;
+    color: #303030;
+}
+
+div.lg a:hover {
+    text-decoration: underline;
+}
+
+div.cp a {
+    display: block;
+    width: 33vw;
+}
+
+div.cp a:hover {
+    text-decoration: underline;
+} 
+.cp{
+    display: flex;
+    justify-content: center;
+    color: #303030;
+    margin-bottom: 4vh;
+}
+div.logoo{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 0vh;
+}
+
+
 @media (max-width:600px) {
     .header{
         position: absolute;
@@ -61,6 +115,13 @@ header{
     .iconcart, .iconretourtop{
         margin-right: 3vw;
         width: 12vw;
+    }
+
+    footer {
+        left: 0;
+        margin-left: 0%;
+        margin-top: 27vh;
+        width: 100vw;
     }
     
 }

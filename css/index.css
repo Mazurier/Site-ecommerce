@@ -12,7 +12,7 @@
     padding-bottom: 10%;
 }
 .gridarticle {
-    background-color: rgb(222, 230, 253);
+    background-color: rgb(218, 186, 164);
     height: fit-content;
     border-radius: 10px;
     padding: 2%;
@@ -82,6 +82,7 @@
     header {
         height: 20vw;
     }
+    
     .gridprix {
         width: 100%;
         font-size: 3.5vw;

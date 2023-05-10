@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ducsman</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/commun.css">
+    <link rel="stylesheet" href="css/sav.css">
+    <script src="sav.js"></script>
+    <script>
+        currentPage='sav';
+    </script>
+</head>
+<body id="top">
+
+    <header id="header"></header>
+
+    <!-- DEBUT PARTIE BARRE DE NAVIGATION -->
+    <div id="navbarjs"></div>
+    <!-- FIN PARTIE BARRE DE NAVIGATION -->
+    
+    <div class="main">
+        <div class="titre">
+            Un problème avec un produit ? Nous en somme desolé et sommes ouvert au retours 
+        </div>
+        <div class="titre">
+            Les balises marqués d'un <span class="required"></span> sont obligatoire
+        </div>
+        <div class="rectangle">
+            <form action="">
+                <div class="formitem required">
+                    <label for="nom">Votre nom:</label>
+                    <input type="text" name="nom" id="nom" placeholder="votre nom" required>
+                </div>
+                <div class="formitem required">
+                    <label for="prenom">Votre prénom:</label>
+                    <input type="text" name="prenom" id="prenom" placeholder="votre prénom" required>
+                </div>
+                <div class="formitem required">
+                    <label for="email">Votre email:</label>
+                    <input type="email" name="email" id="email" placeholder="votreemail@example.com" required>
+                </div>
+                <div class="formitem required">
+                    <label for="produit">Produit defectueux:</label>
+                    <select name="produit" id="produit" required>
+                        <option selected disabled value="">Selectionez votre produit</option>
+                        <option value="fr">tshirt tropbien</option>
+                        <option value="en">tshirt superbeau</option>
+                        <option value="de">ma chemise d'hier</option>
+                    </select>
+                </div>
+                <div class="formitem">
+                    <div class="required">
+                        <label for="probleme"> Votre probleme:</label>
+                        <select name="probleme" id="probleme" required onchange="showfield(this.options[this.selectedIndex].value)">
+                            <option selected disabled value="">Selectionez votre probleme</option>
+                            <option value="fr">produit de mauvaise taille</option>
+                            <option value="en">mauvais produit recu</option>
+                            <option value="Other">autre</option>
+                        </select>
+                        </div>
+                    <div id="otherdiv"></div> <!--Voir sav.js-->
+                </div>
+                <div class="formitem">
+                    <label for="file">Photo de votre produit:</label>
+                    <input type="file" name="file" id="file"> <!--Voir a changer "browse" avec js-->
+                </div>
+                <button type="submit">Soumettre</button>
+            </form>
+        </div>
+        <footer id="footer"></footer>
+    </div>
+
+
+    
+    <script src="commun.js"></script>
+    <script src="./menu.js"></script>
+</body>
+</html>
