@@ -59,7 +59,7 @@ nav.navbar div.nav-links ul {
 }
 
 nav.navbar div.nav-links ul li {
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 nav.navbar div.nav-links ul li.active a {
@@ -68,12 +68,35 @@ nav.navbar div.nav-links ul li.active a {
 }
 
 nav.navbar div.nav-links ul li a {
+    display: block;
+    position: relative;
+    width: 100%;
     font-family: 'Amiri';
     font-style: italic;
     color: #303030;
     font-size: var(--navbar-link-desktop-font-size);
     color: var(--navbar-link-color);
     text-transform: uppercase;
+}
+
+nav.navbar div.nav-links ul li a:hover {
+    color: #e2d1c3;
+}
+
+nav.navbar div.nav-links ul li a::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0px;
+    background-color: #303030;
+    transition: all 0.4s;
+    z-index: -1;
+}
+  
+nav.navbar div.nav-links ul li a:hover::before {
+    width: 100%;
 }
 
 nav.navbar iframe#small-google-map {

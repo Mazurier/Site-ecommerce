@@ -73,6 +73,10 @@ div.lg a, div.cp a {
     color: #303030;
 }
 
+div.lg a:hover {
+    text-decoration: underline;
+}
+
 div.cp a {
     display: block;
     width: 33vw;

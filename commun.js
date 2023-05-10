@@ -45,16 +45,17 @@ function navbarjs() {
 
     return `
     <nav class="navbar" id="navbar">
-            <a href="#" class="logo"><img src="./img/logo-ducsman-200-95-transparent.png"></a>
+            <a href="./index.html" class="logo"><img src="./img/logo-ducsman-200-95-transparent.png"></a>
             <div class="nav-links" id="nav-links">
                 <img src="./img/menu/menu-btn.png" alt="bouton menu hamburger" class="menu-hamburger" id="menu-hamburger-image">
-                <a href="#" class="logo-mobile"><img src="./img/logo-ducsman-200-95-transparent.png"></a>
+                <a href="./index.html" class="logo-mobile"><img src="./img/logo-ducsman-200-95-transparent.png"></a>
                 <ul>
                     <li><a href="./index.html" `+indexActive+`>Boutique</a></li>
                     <li><a href="./apropos.html" `+aproposActive+`>à propos</a></li>
                     <li><a href="./contact.html" `+contactActive+`>Contact</a></li>
                     <li><a href="./rgpd.html" `+rgpdActive+`>RGPD</a></li>
                     <li><a href="./cgu.html" `+cguActive+`>CGU</a></li>
+                    <li><a href="./mentions_legales.html" `+mentionsLegalesActive+`>Mentions Légales</a></lli>
                     <li><a href="./sav.html">SAV</a></li>
                 </ul>
                 <iframe id="small-google-map" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d10498.368656278535!2d2.3234495763383443!3d48.86598692289923!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1stailleur%20paris!5e0!3m2!1sfr!2sfr!4v1683188216931!5m2!1sfr!2sfr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
