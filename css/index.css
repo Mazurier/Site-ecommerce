@@ -1,7 +1,8 @@
 .gridcontain {
     position: absolute;
-    width: 83vw;
+    width: 85vw;
     margin-left: 15vw;
+    background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
 }
 .griditself {
     margin-top: 44vh;

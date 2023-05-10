@@ -1,7 +1,8 @@
 .main {
     position: absolute;
-    margin-top: 22vw;
-    margin-left: 17vw;
+    padding-top: 22vw;
+    padding-left: 17vw;
+    background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
 }
 .rectangle {
     margin-top: 2%;
