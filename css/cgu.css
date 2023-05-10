@@ -1,7 +1,9 @@
 .main {
     position: absolute;
     padding-left: 17vw;
+    width: 81vw;
     padding-top: 12vw;
+    padding-right: 2vw;
     background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
 }
 header {
@@ -31,13 +33,14 @@ p {
         margin-left: 0vw;
         padding-left: 4vw;
         padding-right: 3vw;
-        width: 85vw;
+        width: 93vw;
         font-size: 3vw;
     }
     h2 {
         margin-top: 5%;
     }
     footer {
+        width: 101vw; /*je sais pas pourquoi mais la il faut 101*/
         margin-left: -5vw;
         left: 0%;
     }
