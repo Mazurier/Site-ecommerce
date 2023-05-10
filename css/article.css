@@ -5,11 +5,12 @@
 }
 .articleplace {
     position: absolute;
-    width: 75vw;
+    width: 78.5vw;
     margin-top: 17vh;
-    margin-left: 15.5vw;
     padding: 3%;
+    padding-left: 18.5vw;
     padding-bottom: 0%;
+    background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
 }
 .headerimg {
     height: 10vw;
@@ -137,7 +138,11 @@ footer {
         height: 15vw;
     }
     .articleplace {
-        margin-left: 1%;
+        padding-left: 6vw;
+        margin-left: 0%;
+        margin-top: 0%;
+        padding-top: 25vw;
+        width: 90vw;
     }
     .h1prix{
         width: 55vw;
@@ -204,5 +209,8 @@ footer {
     }
     .headerimg {
         height: 20vw;
+    }
+    footer {
+        margin-left: -7vw;
     }
 }

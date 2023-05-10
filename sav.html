@@ -53,13 +53,15 @@
                     </select>
                 </div>
                 <div class="formitem">
-                    <label for="probleme"> Votre probleme:</label>
-                    <select name="probleme" id="probleme" onchange="showfield(this.options[this.selectedIndex].value)">
-                        <option selected disabled value="">Selectionez votre probleme</option>
-                        <option value="fr">produit de mauvaise taille</option>
-                        <option value="en">mauvais produit recu</option>
-                        <option value="Other">autre</option>
-                    </select>
+                    <div class="required">
+                        <label for="probleme"> Votre probleme:</label>
+                        <select name="probleme" id="probleme" required onchange="showfield(this.options[this.selectedIndex].value)">
+                            <option selected disabled value="">Selectionez votre probleme</option>
+                            <option value="fr">produit de mauvaise taille</option>
+                            <option value="en">mauvais produit recu</option>
+                            <option value="Other">autre</option>
+                        </select>
+                        </div>
                     <div id="otherdiv"></div> <!--Voir sav.js-->
                 </div>
                 <div class="formitem">

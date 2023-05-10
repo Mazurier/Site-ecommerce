@@ -32,8 +32,9 @@ footer {
     div.apropos-container {
         top: 20vw;
         margin-left: 0vw;
-        padding: 2% 3%;
-        padding-bottom: 10%;
+        padding: 6vw 3%; /*vw + clair pour calcul*/
+        padding-bottom: 0%;
         height: fit-content;
+        width: 94vw;
     }
 }
