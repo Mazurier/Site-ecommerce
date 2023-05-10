@@ -1,7 +1,8 @@
 .main {
     position: absolute;
-    margin-left: 17vw;
-    margin-top: 12vw;
+    padding-left: 17vw;
+    padding-top: 12vw;
+    background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
 }
 header {
     height: 10vw;
@@ -15,6 +16,10 @@ h2 {
 footer {
     margin-left: -2vw;
     margin-top: 2%;
+}
+
+p {
+    text-align: justify;
 }
 
 @media (max-width:600px){
