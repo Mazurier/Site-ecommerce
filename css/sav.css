@@ -1,7 +1,8 @@
 .main {
     position: absolute;
-    margin-top: 22vw;
-    margin-left: 17vw;
+    padding-top: 22vw;
+    padding-left: 17vw;
+    background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
 }
 .rectangle {
     margin-top: 2%;
@@ -14,10 +15,16 @@
 form {
     display: flex;
     flex-direction: column;
+    font-family: 'Maitree', serif;
 }
 .formitem {
     margin-top: 0%;
     padding-bottom: 2%;
+}
+.titre {
+    font-size: 1vw;
+    font-weight: 500;
+    font-family: 'Amiri';
 }
 .other {
     margin-top: 2%;
